@@ -1,0 +1,72 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(104, 104, 94, 0.452);
+}
+
+#header {
+    background-color:#02103d;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+
+h1 {
+    vertical-align: middle;
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+    
+}
+
+.row {
+    margin: 10px 7px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5px;
+    color:rgb(9, 1, 87)
+
+    
+}
+
+#results {
+    margin: 30px 20px 10px 0px;
+}
+
+.person-row {
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: #32be71;
+    width: 100%;
+    float: left;
+}
+
+.person-row img {
+    float: left;
+    margin-right: 20px;
+}
+
+.personal-info {
+    float: left;
+}
+
+.person-row > button {
+    background-color: rgb(2, 17, 61);
+    color: white;
+   float: right; 
+   
+}
+
+#gender {
+width: 130px;
+height: 1.5rem;
+}
+
+#hobby {
+width: 120px;
+height: 1.1rem;
+}
+
+#searchBtn {
+height: 1.5rem;
+}
